@@ -1,0 +1,15 @@
+
+.border_tip{width: 400px; height: auto; background: pink; padding: 20px; text-align: justify; position: relative;left: 50%; top: 100px; transform: translate(-50%); }
+.border_tip:after{}
+.border_tip:before{
+    content: "";
+    position: absolute;
+    left: 220px;
+    top: -10px;
+    border-bottom: 10px solid pink;
+    border-left: 10px solid transparent;
+    border-right:  10px solid transparent; /* 삼각형모양만드는방법 */
+
+}
+.border_tip .left{}
+.border_tip .right{}
